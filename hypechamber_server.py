@@ -16,7 +16,7 @@ class WinchamberServer:
     def __init__(self):
         self.server = None
         self.server_thread = None
-        self.config_file = "winchamber_config.json"
+        self.config_file = "hypechamber_server_config.json"
         
         # Create GUI
         self.root = tk.Tk()
